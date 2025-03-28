@@ -1,4 +1,3 @@
-// src/components/TimerList.js
 
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
@@ -92,21 +91,18 @@ const TimerList = ({ timers, setTimers }) => {
               remainingTime: timer.remainingTime - 1,
             };
 
-            // Calculate elapsed percentage
             const elapsedPercentage =
               ((timer.duration - updatedTimer.remainingTime) / timer.duration) *
               100;
 
-            // Rounded evaluation may be better for very short times
             if (Math.abs(elapsedPercentage - timer.alerts[0]) <= 0.5) {
-              // A tiny tolerance
+
               setModalMessage(
                 `Alert: "${timer.name}" has reached ${timer.alerts[0]}% completion.`
               );
               setShowModal(true);
             }
 
-            // Completion logic
             if (
               updatedTimer.remainingTime === 0 &&
               timer.status !== "Completed"

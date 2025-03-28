@@ -1,4 +1,3 @@
-// src/components/History.js
 
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
