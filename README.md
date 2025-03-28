@@ -1,4 +1,3 @@
-# time-sentry
 
 # TimeSentry
 
@@ -22,48 +21,43 @@
 Follow these steps to install and run TimeSentry on your local machine:
 
 1. **Clone the Repository**
-   ```bash
+   ```
    git clone https://github.com/saurabh7412/time-sentry.git
    cd timer-app
+   ```
 
 2. **Install Dependencies**
 Make sure you have Node.js installed, then run:
+```npm install```
 
-bash
-Copy code
-npm install
-Run the Application in Development Mode
+3. **Run the Application in Development Mode**
 
-bash
-Copy code
-npm run dev
-Build for Production
+```npm run dev```
+
+4. **Build for Production**
 If you want to build the application for production, run:
 
-bash
-Copy code
-npm run build
-Preview Production Build
+```npm run build```
+
+5. **Preview Production Build**
 To preview the production build locally:
 
-bash
-Copy code
-npm run preview
-Lint the Code
+```npm run preview```
+
+6. **Lint the Code**
 Ensure code quality by linting:
 
-bash
-Copy code
-npm run lint
-Technologies Used
+```npm run lint```
+
+7. **Technologies Used**
 Frontend: React, React Router DOM, Styled Components
 Build Tool: Vite
 Linting: ESLint
-Requirements
+
+**Requirements**
 Node.js: Make sure you have Node.js installed to manage packages and run the application.
 NPM: Node Package Manager to handle dependencies (comes with Node.js).
-Development
-To get involved in development, fork the repository and start making changes. Contributions are always welcome!
+Development - To get involved in development, fork the repository and start making changes. Contributions are always welcome!
 
 License
 This project is licensed under the MIT License.
