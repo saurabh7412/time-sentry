@@ -50,7 +50,8 @@ Ensure code quality by linting:
    ```npm run lint```
 
 7. **Technologies Used**
-   ```Frontend: React, React Router DOM, Styled Components
+   ```
+      Frontend: React, React Router DOM, Styled Components
       Build Tool: Vite
       Linting: ESLint
    ```
