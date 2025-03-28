@@ -28,26 +28,26 @@ Follow these steps to install and run TimeSentry on your local machine:
 
 2. **Install Dependencies**
 Make sure you have Node.js installed, then run:
-```npm install```
+   ```npm install```
 
 3. **Run the Application in Development Mode**
 
-```npm run dev```
+   ```npm run dev```
 
 4. **Build for Production**
 If you want to build the application for production, run:
 
-```npm run build```
+   ```npm run build```
 
 5. **Preview Production Build**
 To preview the production build locally:
 
-```npm run preview```
+   ```npm run preview```
 
 6. **Lint the Code**
 Ensure code quality by linting:
 
-```npm run lint```
+   ```npm run lint```
 
 7. **Technologies Used**
 Frontend: React, React Router DOM, Styled Components
