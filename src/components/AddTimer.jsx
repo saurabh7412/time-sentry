@@ -51,7 +51,7 @@ const AddTimer = ({ onAddTimer }) => {
   const [name, setName] = useState('');
   const [duration, setDuration] = useState('');
   const [category, setCategory] = useState('');
-  const [alertPercentage, setAlertPercentage] = useState(50); // Default to 50 for a mid-point alert
+  const [alertPercentage, setAlertPercentage] = useState(50);
 
   const handleAddTimer = (e) => {
     e.preventDefault();
