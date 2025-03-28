@@ -50,9 +50,10 @@ Ensure code quality by linting:
    ```npm run lint```
 
 7. **Technologies Used**
-Frontend: React, React Router DOM, Styled Components
-Build Tool: Vite
-Linting: ESLint
+   ```Frontend: React, React Router DOM, Styled Components
+      Build Tool: Vite
+      Linting: ESLint
+   ```
 
 **Requirements**
 Node.js: Make sure you have Node.js installed to manage packages and run the application.
